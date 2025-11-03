@@ -69,6 +69,7 @@ cairo-lang-execute-utils = { git = "https://github.com/bankaixyz/cairo", tag = "
 cairo-lang-starknet-classes = { git = "https://github.com/bankaixyz/cairo", tag = "v3.0.0-rc.4", default-features = false }
 cairo-lang-compiler = { git = "https://github.com/bankaixyz/cairo", tag = "v3.0.0-rc.4", default-features = false }
 cairo-lang-sierra-to-casm = { git = "https://github.com/bankaixyz/cairo", tag = "v3.0.0-rc.4", default-features = false }
+cairo-lang-sierra-type-size = { git = "https://github.com/bankaixyz/cairo", tag = "v3.0.0-rc.4", default-features = false }
 cairo-lang-sierra = { git = "https://github.com/bankaixyz/cairo", tag = "v3.0.0-rc.4", default-features = false }
 cairo-lang-runner = { git = "https://github.com/bankaixyz/cairo", tag = "v3.0.0-rc.4", default-features = false }
 cairo-lang-utils = { git = "https://github.com/bankaixyz/cairo", tag = "v3.0.0-rc.4", default-features = false }
