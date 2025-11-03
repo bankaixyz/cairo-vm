@@ -671,7 +671,7 @@ dependencies = [
  "cairo-lang-sierra-to-casm",
  "cairo-lang-sierra-type-size 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v2.12.4-paul)",
  "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v2.12.4-paul)",
- "cairo-vm 3.0.0-rc.3 (git+https://github.com/bankaixyz/cairo-vm)",
+ "cairo-vm 3.0.0-rc.3",
  "itertools 0.14.0",
  "thiserror",
 ]
@@ -940,6 +940,36 @@ dependencies = [
 
 [[package]]
 name = "cairo-vm"
+version = "3.0.0-rc.3"
+source = "git+https://github.com/bankaixyz/cairo-vm#958ae7ebe468b16720da963343ff7cba8f6b6643"
+dependencies = [
+ "anyhow",
+ "bincode",
+ "bitvec",
+ "generic-array",
+ "hashbrown 0.15.3",
+ "indoc",
+ "keccak",
+ "lazy_static",
+ "nom",
+ "num-bigint",
+ "num-integer",
+ "num-prime",
+ "num-traits",
+ "rand",
+ "rust_decimal",
+ "serde",
+ "serde_json",
+ "sha2",
+ "sha3",
+ "starknet-crypto",
+ "starknet-types-core",
+ "thiserror",
+ "zip",
+]
+
+[[package]]
+name = "cairo-vm"
 version = "3.0.0-rc.4"
 dependencies = [
  "anyhow",
@@ -982,42 +1012,12 @@ dependencies = [
 ]
 
 [[package]]
-name = "cairo-vm"
-version = "3.0.0-rc.3"
-source = "git+https://github.com/bankaixyz/cairo-vm#958ae7ebe468b16720da963343ff7cba8f6b6643"
-dependencies = [
- "anyhow",
- "bincode",
- "bitvec",
- "generic-array",
- "hashbrown 0.15.3",
- "indoc",
- "keccak",
- "lazy_static",
- "nom",
- "num-bigint",
- "num-integer",
- "num-prime",
- "num-traits",
- "rand",
- "rust_decimal",
- "serde",
- "serde_json",
- "sha2",
- "sha3",
- "starknet-crypto",
- "starknet-types-core",
- "thiserror",
- "zip",
-]
-
-[[package]]
 name = "cairo-vm-cli"
 version = "3.0.0-rc.4"
 dependencies = [
  "assert_matches",
  "bincode",
- "cairo-vm 3.0.0-rc.3",
+ "cairo-vm 3.0.0-rc.4",
  "cairo-vm-tracer",
  "clap",
  "mimalloc",
@@ -1030,7 +1030,7 @@ name = "cairo-vm-tracer"
 version = "3.0.0-rc.4"
 dependencies = [
  "axum",
- "cairo-vm 3.0.0-rc.3",
+ "cairo-vm 3.0.0-rc.4",
  "include_dir",
  "mime_guess",
  "num-bigint",
@@ -1055,7 +1055,7 @@ dependencies = [
  "cairo-lang-sierra-to-casm",
  "cairo-lang-sierra-type-size 2.12.4-dev.1 (registry+https://github.com/rust-lang/crates.io-index)",
  "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v2.12.4-paul)",
- "cairo-vm 3.0.0-rc.3",
+ "cairo-vm 3.0.0-rc.4",
  "clap",
  "itertools 0.11.0",
  "num-bigint",
@@ -1708,7 +1708,7 @@ checksum = "7f24254aa9a54b5c858eaee2f5bccdb46aaf0e486a595ed5fd8f86ba55232a70"
 name = "hint_accountant"
 version = "3.0.0-rc.4"
 dependencies = [
- "cairo-vm 3.0.0-rc.3",
+ "cairo-vm 3.0.0-rc.4",
  "serde",
  "serde_json",
 ]
@@ -1798,7 +1798,7 @@ dependencies = [
 name = "hyper_threading"
 version = "3.0.0-rc.4"
 dependencies = [
- "cairo-vm 3.0.0-rc.3",
+ "cairo-vm 3.0.0-rc.4",
  "rayon",
  "tracing",
 ]
@@ -3707,7 +3707,7 @@ dependencies = [
 name = "wasm-demo"
 version = "3.0.0-rc.4"
 dependencies = [
- "cairo-vm 3.0.0-rc.3",
+ "cairo-vm 3.0.0-rc.4",
  "console_error_panic_hook",
  "wasm-bindgen",
 ]
@@ -3716,8 +3716,8 @@ dependencies = [
 name = "wasm-demo-cairo1"
 version = "3.0.0-rc.4"
 dependencies = [
- "cairo-lang-sierra",
- "cairo-vm",
+ "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v2.12.4-paul)",
+ "cairo-vm 3.0.0-rc.4",
  "cairo1-run",
  "console_error_panic_hook",
  "wasm-bindgen",

@@ -64,14 +64,14 @@ thiserror = { version = "2", default-features = false }
 bitvec = { version = "1", default-features = false, features = ["alloc"] }
 
 # Dependencies for cairo-1-hints feature
-cairo-lang-casm = { git = "https://github.com/bankaixyz/cairo", tag = "v2.12.4-paul", default-features = false }
-cairo-lang-execute-utils = { git = "https://github.com/bankaixyz/cairo", tag = "v2.12.4-paul", default-features = false }
-cairo-lang-starknet-classes = { git = "https://github.com/bankaixyz/cairo", tag = "v2.12.4-paul", default-features = false }
-cairo-lang-compiler = { git = "https://github.com/bankaixyz/cairo", tag = "v2.12.4-paul", default-features = false }
-cairo-lang-sierra-to-casm = { git = "https://github.com/bankaixyz/cairo", tag = "v2.12.4-paul", default-features = false }
-cairo-lang-sierra = { git = "https://github.com/bankaixyz/cairo", tag = "v2.12.4-paul", default-features = false }
-cairo-lang-runner = { git = "https://github.com/bankaixyz/cairo", tag = "v2.12.4-paul", default-features = false }
-cairo-lang-utils = { git = "https://github.com/bankaixyz/cairo", tag = "v2.12.4-paul", default-features = false }
+cairo-lang-casm = { git = "https://github.com/bankaixyz/cairo", rev = "7d33a7c3107120dd946c80cfca9de4657a17e257", default-features = false }
+cairo-lang-execute-utils = { git = "https://github.com/bankaixyz/cairo", rev = "7d33a7c3107120dd946c80cfca9de4657a17e257", default-features = false }
+cairo-lang-starknet-classes = { git = "https://github.com/bankaixyz/cairo", rev = "7d33a7c3107120dd946c80cfca9de4657a17e257", default-features = false }
+cairo-lang-compiler = { git = "https://github.com/bankaixyz/cairo", rev = "7d33a7c3107120dd946c80cfca9de4657a17e257", default-features = false }
+cairo-lang-sierra-to-casm = { git = "https://github.com/bankaixyz/cairo", rev = "7d33a7c3107120dd946c80cfca9de4657a17e257", default-features = false }
+cairo-lang-sierra = { git = "https://github.com/bankaixyz/cairo", rev = "7d33a7c3107120dd946c80cfca9de4657a17e257", default-features = false }
+cairo-lang-runner = { git = "https://github.com/bankaixyz/cairo", rev = "7d33a7c3107120dd946c80cfca9de4657a17e257", default-features = false }
+cairo-lang-utils = { git = "https://github.com/bankaixyz/cairo", rev = "7d33a7c3107120dd946c80cfca9de4657a17e257", default-features = false }
 
 # TODO: check these dependencies for wasm compatibility
 ark-ff = { version = "0.4.2", default-features = false }
