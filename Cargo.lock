@@ -450,9 +450,9 @@ checksum = "d71b6127be86fdcfddb610f7182ac57211d4b18a3e9c82eb2d17662f2227ad6a"
 [[package]]
 name = "cairo-lang-casm"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "indoc",
  "num-bigint",
  "num-traits",
@@ -463,7 +463,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-compiler"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "anyhow",
  "cairo-lang-defs",
@@ -474,10 +474,10 @@ dependencies = [
  "cairo-lang-project",
  "cairo-lang-runnable-utils",
  "cairo-lang-semantic",
- "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "cairo-lang-sierra-generator",
  "cairo-lang-syntax",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "indoc",
  "rayon",
  "rust-analyzer-salsa",
@@ -489,15 +489,15 @@ dependencies = [
 [[package]]
 name = "cairo-lang-debug"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
 ]
 
 [[package]]
 name = "cairo-lang-defs"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "bincode",
  "cairo-lang-debug",
@@ -505,7 +505,7 @@ dependencies = [
  "cairo-lang-filesystem",
  "cairo-lang-parser",
  "cairo-lang-syntax",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "itertools 0.14.0",
  "rust-analyzer-salsa",
  "serde",
@@ -517,30 +517,30 @@ dependencies = [
 [[package]]
 name = "cairo-lang-diagnostics"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "cairo-lang-debug",
  "cairo-lang-filesystem",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "itertools 0.14.0",
 ]
 
 [[package]]
 name = "cairo-lang-eq-solver"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "good_lp",
 ]
 
 [[package]]
 name = "cairo-lang-filesystem"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "cairo-lang-debug",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "path-clean",
  "rust-analyzer-salsa",
  "semver",
@@ -552,14 +552,14 @@ dependencies = [
 [[package]]
 name = "cairo-lang-formatter"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "anyhow",
  "cairo-lang-diagnostics",
  "cairo-lang-filesystem",
  "cairo-lang-parser",
  "cairo-lang-syntax",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "diffy",
  "ignore",
  "itertools 0.14.0",
@@ -570,7 +570,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-lowering"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "assert_matches",
  "bincode",
@@ -582,7 +582,7 @@ dependencies = [
  "cairo-lang-proc-macros",
  "cairo-lang-semantic",
  "cairo-lang-syntax",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "id-arena",
  "itertools 0.14.0",
  "log",
@@ -596,14 +596,14 @@ dependencies = [
 [[package]]
 name = "cairo-lang-parser"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "cairo-lang-diagnostics",
  "cairo-lang-filesystem",
  "cairo-lang-primitive-token",
  "cairo-lang-syntax",
  "cairo-lang-syntax-codegen",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "colored",
  "itertools 0.14.0",
  "num-bigint",
@@ -616,14 +616,14 @@ dependencies = [
 [[package]]
 name = "cairo-lang-plugins"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "cairo-lang-defs",
  "cairo-lang-diagnostics",
  "cairo-lang-filesystem",
  "cairo-lang-parser",
  "cairo-lang-syntax",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "indent",
  "indoc",
  "itertools 0.14.0",
@@ -640,7 +640,7 @@ checksum = "123ac0ecadf31bacae77436d72b88fa9caef2b8e92c89ce63a125ae911a12fae"
 [[package]]
 name = "cairo-lang-proc-macros"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "cairo-lang-debug",
  "quote",
@@ -650,10 +650,10 @@ dependencies = [
 [[package]]
 name = "cairo-lang-project"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "cairo-lang-filesystem",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "serde",
  "thiserror",
  "toml",
@@ -662,16 +662,16 @@ dependencies = [
 [[package]]
 name = "cairo-lang-runnable-utils"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "cairo-lang-casm",
- "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "cairo-lang-sierra-ap-change",
  "cairo-lang-sierra-gas",
  "cairo-lang-sierra-to-casm",
- "cairo-lang-sierra-type-size 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
- "cairo-vm 3.0.0-rc.4 (git+https://github.com/bankaixyz/cairo-vm?tag=v3.0.0-rc.4)",
+ "cairo-lang-sierra-type-size 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
+ "cairo-vm 3.0.0-rc.4 (git+https://github.com/bankaixyz/cairo-vm?rev=79279dc)",
  "itertools 0.14.0",
  "thiserror",
 ]
@@ -679,7 +679,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-semantic"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "cairo-lang-debug",
  "cairo-lang-defs",
@@ -690,7 +690,7 @@ dependencies = [
  "cairo-lang-proc-macros",
  "cairo-lang-syntax",
  "cairo-lang-test-utils",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "id-arena",
  "indoc",
  "itertools 0.14.0",
@@ -732,10 +732,10 @@ dependencies = [
 [[package]]
 name = "cairo-lang-sierra"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "anyhow",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "const-fnv1a-hash",
  "convert_case",
  "derivative",
@@ -758,12 +758,12 @@ dependencies = [
 [[package]]
 name = "cairo-lang-sierra-ap-change"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "cairo-lang-eq-solver",
- "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
- "cairo-lang-sierra-type-size 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
+ "cairo-lang-sierra-type-size 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "itertools 0.14.0",
  "num-bigint",
  "num-traits",
@@ -773,12 +773,12 @@ dependencies = [
 [[package]]
 name = "cairo-lang-sierra-gas"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "cairo-lang-eq-solver",
- "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
- "cairo-lang-sierra-type-size 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
+ "cairo-lang-sierra-type-size 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "itertools 0.14.0",
  "num-bigint",
  "num-traits",
@@ -788,7 +788,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-sierra-generator"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "cairo-lang-debug",
  "cairo-lang-defs",
@@ -797,9 +797,9 @@ dependencies = [
  "cairo-lang-lowering",
  "cairo-lang-parser",
  "cairo-lang-semantic",
- "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "cairo-lang-syntax",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "itertools 0.14.0",
  "num-traits",
  "rust-analyzer-salsa",
@@ -811,15 +811,15 @@ dependencies = [
 [[package]]
 name = "cairo-lang-sierra-to-casm"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "assert_matches",
  "cairo-lang-casm",
- "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "cairo-lang-sierra-ap-change",
  "cairo-lang-sierra-gas",
- "cairo-lang-sierra-type-size 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-sierra-type-size 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "indoc",
  "itertools 0.14.0",
  "num-bigint",
@@ -841,21 +841,21 @@ dependencies = [
 [[package]]
 name = "cairo-lang-sierra-type-size"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
- "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
 ]
 
 [[package]]
 name = "cairo-lang-starknet-classes"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "cairo-lang-casm",
- "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "cairo-lang-sierra-to-casm",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "convert_case",
  "itertools 0.14.0",
  "num-bigint",
@@ -872,12 +872,12 @@ dependencies = [
 [[package]]
 name = "cairo-lang-syntax"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "cairo-lang-debug",
  "cairo-lang-filesystem",
  "cairo-lang-primitive-token",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "num-bigint",
  "num-traits",
  "rust-analyzer-salsa",
@@ -889,7 +889,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-syntax-codegen"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "genco",
  "xshell",
@@ -898,10 +898,10 @@ dependencies = [
 [[package]]
 name = "cairo-lang-test-utils"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "cairo-lang-formatter",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "colored",
  "log",
  "pretty_assertions",
@@ -926,7 +926,7 @@ dependencies = [
 [[package]]
 name = "cairo-lang-utils"
 version = "2.12.4-dev.1"
-source = "git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9#9ae0926fbfc870713627d87196fce14fd22a5ae9"
+source = "git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4#71aa666d3f4b0031f6e3190718fb974ba659741f"
 dependencies = [
  "hashbrown 0.15.3",
  "indexmap 2.9.0",
@@ -984,7 +984,7 @@ dependencies = [
 [[package]]
 name = "cairo-vm"
 version = "3.0.0-rc.4"
-source = "git+https://github.com/bankaixyz/cairo-vm?tag=v3.0.0-rc.4#e811ae123bc2140e435d91201f1a662ce4a5f30d"
+source = "git+https://github.com/bankaixyz/cairo-vm?rev=79279dc#79279dc5f04c8927b2de342c29aa8bd100c5a885"
 dependencies = [
  "anyhow",
  "bincode",
@@ -1051,10 +1051,10 @@ dependencies = [
  "bincode",
  "cairo-lang-casm",
  "cairo-lang-compiler",
- "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "cairo-lang-sierra-to-casm",
  "cairo-lang-sierra-type-size 2.12.4-dev.1 (registry+https://github.com/rust-lang/crates.io-index)",
- "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-utils 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "cairo-vm 3.0.0-rc.4",
  "clap",
  "itertools 0.11.0",
@@ -3716,7 +3716,7 @@ dependencies = [
 name = "wasm-demo-cairo1"
 version = "3.0.0-rc.4"
 dependencies = [
- "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?rev=9ae0926fbfc870713627d87196fce14fd22a5ae9)",
+ "cairo-lang-sierra 2.12.4-dev.1 (git+https://github.com/bankaixyz/cairo?tag=v3.0.0-rc.4)",
  "cairo-vm 3.0.0-rc.4",
  "cairo1-run",
  "console_error_panic_hook",
